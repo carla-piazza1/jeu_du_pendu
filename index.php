@@ -215,7 +215,7 @@ if(isset($_GET['kp'])){
                 <?php if($WON  && gameComplete()):?>
                     <p style="color: darkgreen; font-size: 25px;">Vous avez gagné, Félicitation </p>
                 <?php elseif(!$WON  && gameComplete()): ?>
-                    <p style="color: darkred; font-size: 25px;">Vous avez Perdu, CHEH </p>
+                    <p style="color: darkred; font-size: 25px;">Vous avez Perdu </p>
                 <?php endif;?>
             </div>
             
