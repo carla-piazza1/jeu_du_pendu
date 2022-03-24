@@ -29,7 +29,7 @@ fclose($gestion);
 
 
 function getCurrentPicture($part){
-    return "./images/pendu_". $part. ".png";
+    return "./Images/pendu_". $part. ".png";
 }
 
 
